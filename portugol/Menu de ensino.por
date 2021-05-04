@@ -7,7 +7,7 @@ programa
 
 		faca{
 			escreva("Digite o código da opção: ")
-			escreva("\n1-Basico\n2-Medio\n3-Graduacao\n4-Sair")
+			escreva("\n1-Basico\n2-Medio\n3-Graduacao\n4-Sair
 			leia(opcao)
 			se(opcao =='1'){
 				
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 204; 
+ * @POSICAO-CURSOR = 157; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
