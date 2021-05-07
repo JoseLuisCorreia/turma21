@@ -1,8 +1,8 @@
-package exercicios.aulas;
+package exercicios;
 
 import java.util.Scanner;
 
-public class Ex {
+public class Genero {
 
 	/*
 	 * Nome, ano nasc, M - masculino, F - Feminino O - outro
