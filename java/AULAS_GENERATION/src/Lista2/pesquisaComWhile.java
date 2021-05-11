@@ -16,8 +16,8 @@ public class pesquisaComWhile {
 		 * Pede-se para elaborar um sistema que permita ler os dados de 150 pessoas,
 		 * calcule e mostre: (WHILE)
 		 */
-		final int PESSOA = 4;
-		int contador = 0;
+		final int PESSOA = 2;
+		int contador = 1;
 		char continuar = 's';
 		int idade = 0;
 		char sexo;
@@ -30,16 +30,14 @@ public class pesquisaComWhile {
 		int calmasMenosDe18anos;
 			
 		
-		while (continuar == 's' && PESSOA <=4) {
-			System.out.printf("PESSOA %d \n"  , contador);
-			System.out.println("Digite sua idade: ");
+		while (contador <= PESSOA) {
+			System.out.println("Pessoa "+contador);
+			System.out.println("\nDigite sua idade: ");
 			idade = leia.nextInt();
 			System.out.println("Digite \n1-feminino \n2-masculino \n3-Outros");
 			sexo = leia.next().charAt(0);
 			
-			System.out.printf("Sua idade é "+ idade +" e seu genero é: " +sexo);
-			System.out.println();
-			
+					contador++;
 			
 		}
 	}

@@ -24,24 +24,27 @@ public class LacosDeRepeticao {
 				{
 					System.out.println("Informe um numero positivo: ");
 					numero = leia.nextInt();
-
+					
+					if (numero>=0)
 				somatorio = somatorio + numero;
 
-					if (numero>0);
+					if (numero>0)
 					{
 						totalValoresLidos++;
 					} 
-					else{
+					else { 
 						break;
 					}
 
 				media = somatorio / totalValoresLidos;
 				
 				}
-
-				System.out.printf("\nA soma dos valores informados é de: ", somatorio);
-				System.out.printf("\nA quantidade de vezes que foram informados numeros !=0 foi de: ",totalValoresLidos, " vezes");
-				System.out.printf("\nA média dos numeros informados é: ", media);
+				
+				
+				System.out.printf("\nA soma dos valores informados é de: "+ somatorio);
+				System.out.printf("\nA quantidade de vezes que foram informados numeros !=0 foi de: " + totalValoresLidos + " vezes");
+				System.out.printf("\nA média dos numeros informados é: " + media);
+				
 				 
 			}
 
