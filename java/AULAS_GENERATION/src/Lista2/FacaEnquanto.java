@@ -26,9 +26,9 @@ public class FacaEnquanto {
 			
 			}
 			 else// {
-				 if(idade >= 0 && idade <18);
-				System.out.println("\nVocê é de menor...");
-				
+				 if(idade >= 0 && idade <18) {
+				System.out.println("\nVocê é de menor...");}
+					
 			//} //else {
 				//System.out.println("Você digitou um numero iválido.");
 				
