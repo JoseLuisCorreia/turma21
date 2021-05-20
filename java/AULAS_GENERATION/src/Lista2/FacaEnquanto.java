@@ -10,32 +10,28 @@ public class FacaEnquanto {
 		/*
 		 * Crie um sistema que leia a idade das pessoas. Se a pessoa tiver 18 anos ou
 		 * mais, escreva: Você é um adulto. Se tiver menos de 18, escreva: você é de
-		 * menor. Se for um numero negativo pare o laço
+		 * menor. Se for um numero negativo pare o laço.
 		 */
 		Scanner leia = new Scanner(System.in);
 		int idade = 0;
 		
-		System.out.println("\nDigite sua idade: ");
-		idade = leia.nextInt();
 		
-		do {
+		do {System.out.println("\nDigite sua idade: ");
+			idade = leia.nextInt();
+			
 			System.out.printf("Sua idade é: "+ idade );
 			
 			if(idade >= 18) {
 				System.out.println("\nVocê é de maior...");
 			
 			}
-			 else// {
-				 if(idade >= 0 && idade <18) {
-				System.out.println("\nVocê é de menor...");}
+			 else if(idade >= 0 && idade <18) {
+				System.out.println("\nVocê é de menor...");
 					
-			//} //else {
-				//System.out.println("Você digitou um numero iválido.");
-				
-		//	}
+			 }
 			
-		//while
-		//}
+		
+		}while(idade >=0);
 	
 	}
 

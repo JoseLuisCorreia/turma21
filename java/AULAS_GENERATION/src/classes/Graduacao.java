@@ -2,13 +2,13 @@ package classes;
 
 import java.util.Scanner;
 
-public class Poos extends EscolaMae{
+public class Graduacao extends Estudante{
 
         private double bonus;
 
-        public Poos(int matricula, String cpf) {
+        public Graduacao(int matricula, String cpf) {
 
-            super(matricula, cpf, getBonus(), true);
+            super(matricula, cpf);
             bonus = 2.0;
         }
 
@@ -21,7 +21,7 @@ public class Poos extends EscolaMae{
             if ((super.getPontos()+bonus) >= nota) {
                 aux = nota - super.getPontos();
                 bonus=bonus-aux;
-                super.acrescentarNota(aux);
+                super.adicionarNota(aux);
                 super.tirarNota(nota);
             } 
         }
